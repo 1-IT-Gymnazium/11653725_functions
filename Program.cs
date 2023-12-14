@@ -1,7 +1,7 @@
 ﻿using System.Reflection.Metadata;
 using System.Reflection.Metadata.Ecma335;
 
-/*namespace _11653725_functions
+namespace _11653725_functions
 {
     internal class Program
     {
@@ -25,9 +25,9 @@ using System.Reflection.Metadata.Ecma335;
     }
 
   
-}*/
+}
 
-/*
+
 namespace _11653725_functions
 {
     internal class Program2
@@ -52,9 +52,9 @@ namespace _11653725_functions
         }
     }
 
-}*/
+}
 
-/*
+
 namespace _11653725_functions
 {
     internal class Program3
@@ -89,7 +89,7 @@ namespace _11653725_functions
 
 
 }
-*/
+
 
 namespace _11653725_functions
 {
@@ -104,12 +104,55 @@ namespace _11653725_functions
         static void IsOdd()
         {
             string input4 = Console.ReadLine();
-            int Parameter4 = input4.Length;
+            int number = int.Parse(input4);
+            
+            if (number % 2 == 0 )
+            {
+                string Paremeter4 = "sude";
+
+            } else if (number % 2 != 0 ) 
+            {
+                string Parameter4 = "liche";
+
+            }
+            
         }
 
-        public int product(int Parameter4)
+        public string product(string Parameter4)
         {
             return Parameter4;
+        }
+
+    }
+
+
+}
+
+
+namespace _11653725_functions
+{
+    internal class Program5
+    {
+        static void Main(string[] args)
+        {
+            Counter();
+
+        }
+
+        static void Counter()
+        {
+            string input5 = Console.ReadLine();
+            int number = int.Parse(input5);
+            
+            while (number > 0)
+            {
+                static int product(int Parameter5)
+                {
+                    return Parameter5;
+                    Parameter5 -= 1;
+                }
+            }
+            
         }
 
     }
